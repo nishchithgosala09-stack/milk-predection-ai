@@ -1,0 +1,4 @@
+# backend/models/.gitkeep
+# This file ensures the models/ directory is tracked by Git even when empty.
+# Trained .pkl files are excluded by .gitignore and must be regenerated
+# by running:  python backend/train_models.py

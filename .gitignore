@@ -1,0 +1,40 @@
+# DairyVision AI – .gitignore
+# ─────────────────────────────────────────────────────
+
+# ── Python ───────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# ── Virtual environment ───────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── Environment variables ─────────────────────────────
+.env
+.env.local
+.env.production
+
+# ── Trained model files (regenerate via train_models.py)
+# Comment these lines out if you want to commit model files
+backend/models/*.pkl
+
+# ── Pytest cache ──────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── IDE / OS ──────────────────────────────────────────
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
